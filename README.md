@@ -1,6 +1,8 @@
 
 # 🏗 Scaffold-ETH - Flashbots bundler x MEV boost (post merge)
  A template where you can run everything you need for mev-boost
+ 
+ Run:
 
 ```bash
 docker pull flashbots/mev-boost
@@ -10,7 +12,11 @@ docker pull flashbots/mev-boost
 docker pull flashbots/mev-boost-relay
 ```
 
-docker pull flashbots/mev-boost
+Run mev-boost pointed at Flasbots' Ropsten Relay
+
+```bash
+ ./mev-boost -goerli -relay-check -relays https://0xafa4c6985aa049fb79dd37010438cfebeb0f2bd42b115b89dd678dab0670c1de38da0c4e9138c9290a398ecd9a0b3110@builder-relay-goerli.flashbots.net
+```
 
 🎥 Watch the walkthrough here:
 
